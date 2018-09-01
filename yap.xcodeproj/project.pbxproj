@@ -7,10 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0E7C1BD921271B0C00D4B403 /* reference.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E7C1BD721271B0C00D4B403 /* reference.cpp */; };
-		0E7C1BE32127248600D4B403 /* reference.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E7C1BE12127248600D4B403 /* reference.cpp */; };
-		0E7C1BE42127248600D4B403 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E7C1BE22127248600D4B403 /* main.cpp */; };
-		0EA33DE42125238E00111348 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0EA33DE32125238E00111348 /* main.cpp */; };
+		0E01CC342139CB1500591A75 /* Array_algo5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E01CC332139CB1500591A75 /* Array_algo5.cpp */; };
+		0E01CC362139DD3600591A75 /* DP_bitmasking.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E01CC352139DD3600591A75 /* DP_bitmasking.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,11 +24,49 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0E7C1BD721271B0C00D4B403 /* reference.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = reference.cpp; sourceTree = "<group>"; };
-		0E7C1BDE2127247100D4B403 /* yap */ = {isa = PBXFileReference; lastKnownFileType = folder; name = yap; sourceTree = "<group>"; };
-		0E7C1BE02127248600D4B403 /* reference.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = reference.hpp; sourceTree = "<group>"; };
-		0E7C1BE12127248600D4B403 /* reference.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = reference.cpp; sourceTree = "<group>"; };
-		0E7C1BE22127248600D4B403 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0E01CC22213979A700591A75 /* Set_minDeletion.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Set_minDeletion.cpp; sourceTree = "<group>"; };
+		0E01CC242139815600591A75 /* minOperation_array.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = minOperation_array.cpp; sourceTree = "<group>"; };
+		0E01CC2621398CED00591A75 /* Array_algo1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Array_algo1.cpp; sourceTree = "<group>"; };
+		0E01CC292139995300591A75 /* Array_algo2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Array_algo2.cpp; sourceTree = "<group>"; };
+		0E01CC2B2139B1E500591A75 /* checkDuplicatesWithinK.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = checkDuplicatesWithinK.cpp; sourceTree = "<group>"; };
+		0E01CC2D2139B90800591A75 /* Array_algo3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Array_algo3.cpp; sourceTree = "<group>"; };
+		0E01CC2F2139BBEB00591A75 /* findTopKelementsinStream.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = findTopKelementsinStream.cpp; sourceTree = "<group>"; };
+		0E01CC312139C96000591A75 /* Array_algo4.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Array_algo4.cpp; sourceTree = "<group>"; };
+		0E01CC332139CB1500591A75 /* Array_algo5.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Array_algo5.cpp; sourceTree = "<group>"; };
+		0E01CC352139DD3600591A75 /* DP_bitmasking.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DP_bitmasking.cpp; sourceTree = "<group>"; };
+		0E49F7E721357E1F0088D10B /* Hash.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Hash.cpp; sourceTree = "<group>"; };
+		0E59C4232138092C0008B654 /* DoubleHashing.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DoubleHashing.cpp; sourceTree = "<group>"; };
+		0E59C425213813CE0008B654 /* VerticalBinaryTreePrint.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = VerticalBinaryTreePrint.cpp; sourceTree = "<group>"; };
+		0E59C42721382E8E0008B654 /* isSubset.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = isSubset.cpp; sourceTree = "<group>"; };
+		0E6933282130732900748FB0 /* Greedy_Dijkstra2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Greedy_Dijkstra2.cpp; sourceTree = "<group>"; };
+		0E69332A213087F600748FB0 /* Greedy_JobSequence.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Greedy_JobSequence.cpp; sourceTree = "<group>"; };
+		0E69332C2130A68700748FB0 /* Greedy_minCoin.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Greedy_minCoin.cpp; sourceTree = "<group>"; };
+		0E69332E2130B34A00748FB0 /* Greedy_Findflatform.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Greedy_Findflatform.cpp; sourceTree = "<group>"; };
+		0E6933302130BF4800748FB0 /* DP_longestsubsequence.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DP_longestsubsequence.cpp; sourceTree = "<group>"; };
+		0E7C1BEC2127430900D4B403 /* upper_bound.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = upper_bound.cpp; sourceTree = "<group>"; };
+		0E7C1BF12127462A00D4B403 /* equal_range.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = equal_range.cpp; sourceTree = "<group>"; };
+		0E7C1BF521274DB500D4B403 /* STL_sort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = STL_sort.cpp; sourceTree = "<group>"; };
+		0E7C1BF721274EA600D4B403 /* STL_binary_search.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = STL_binary_search.cpp; sourceTree = "<group>"; };
+		0E7C1BF92127517800D4B403 /* STL_binary_search_compare.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = STL_binary_search_compare.cpp; sourceTree = "<group>"; };
+		0E7C1BFC2127556300D4B403 /* STL_pair.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = STL_pair.cpp; sourceTree = "<group>"; };
+		0E7C1BFE2127674000D4B403 /* STL_vector.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = STL_vector.cpp; sourceTree = "<group>"; };
+		0E7C1C002127810A00D4B403 /* STL_list.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = STL_list.cpp; sourceTree = "<group>"; };
+		0E7C1C02212787F200D4B403 /* STL_stack.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = STL_stack.cpp; sourceTree = "<group>"; };
+		0E7C1C04212838FC00D4B403 /* STL_vector1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = STL_vector1.cpp; sourceTree = "<group>"; };
+		0E7C1C0621284A3B00D4B403 /* STL_deque.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = STL_deque.cpp; sourceTree = "<group>"; };
+		0E7C1C0921285BD800D4B403 /* Greedy_ActivitySelection.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Greedy_ActivitySelection.cpp; sourceTree = "<group>"; };
+		0E7C1C0B2128667200D4B403 /* Union_find_algorithm.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Union_find_algorithm.cpp; sourceTree = "<group>"; };
+		0E7C1C0D2128727E00D4B403 /* Union_by_Rank_PathCompression.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Union_by_Rank_PathCompression.cpp; sourceTree = "<group>"; };
+		0E7C1C0F21288A7500D4B403 /* Greedy_Kruskal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Greedy_Kruskal.cpp; sourceTree = "<group>"; };
+		0E8D26472130412700AC53E7 /* Greedy_HuffmanTree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Greedy_HuffmanTree.cpp; sourceTree = "<group>"; };
+		0E8D26492130507600AC53E7 /* Greedy_Prims.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Greedy_Prims.cpp; sourceTree = "<group>"; };
+		0E8D264B213069E000AC53E7 /* Greedy_Dijkstra.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Greedy_Dijkstra.cpp; sourceTree = "<group>"; };
+		0E93634421318857009ED90B /* DP_LCS.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DP_LCS.cpp; sourceTree = "<group>"; };
+		0E93634621319083009ED90B /* DP_LCSprint.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DP_LCSprint.cpp; sourceTree = "<group>"; };
+		0E93634821319BAA009ED90B /* DP_AvailableWordPrint.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DP_AvailableWordPrint.cpp; sourceTree = "<group>"; };
+		0E93634A2131A3F6009ED90B /* DP_EditDistance.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DP_EditDistance.cpp; sourceTree = "<group>"; };
+		0E93634C2131B679009ED90B /* DP_MinCostPath.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DP_MinCostPath.cpp; sourceTree = "<group>"; };
+		0E93634E2131CB5C009ED90B /* DP_CoinChange.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DP_CoinChange.cpp; sourceTree = "<group>"; };
 		0EA33DE02125238E00111348 /* yap */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = yap; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EA33DE32125238E00111348 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -46,19 +82,57 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0E7C1BDF2127248600D4B403 /* yap */ = {
+		0E49F7E621357E0B0088D10B /* DS */ = {
 			isa = PBXGroup;
 			children = (
-				0E7C1BE02127248600D4B403 /* reference.hpp */,
-				0E7C1BE12127248600D4B403 /* reference.cpp */,
-				0E7C1BE22127248600D4B403 /* main.cpp */,
+				0E49F7E721357E1F0088D10B /* Hash.cpp */,
+				0E59C4232138092C0008B654 /* DoubleHashing.cpp */,
+				0E59C425213813CE0008B654 /* VerticalBinaryTreePrint.cpp */,
+				0E59C42721382E8E0008B654 /* isSubset.cpp */,
+				0E01CC22213979A700591A75 /* Set_minDeletion.cpp */,
+				0E01CC242139815600591A75 /* minOperation_array.cpp */,
+				0E01CC2621398CED00591A75 /* Array_algo1.cpp */,
+				0E01CC292139995300591A75 /* Array_algo2.cpp */,
+				0E01CC2B2139B1E500591A75 /* checkDuplicatesWithinK.cpp */,
+				0E01CC2D2139B90800591A75 /* Array_algo3.cpp */,
+				0E01CC2F2139BBEB00591A75 /* findTopKelementsinStream.cpp */,
+				0E01CC312139C96000591A75 /* Array_algo4.cpp */,
+				0E01CC332139CB1500591A75 /* Array_algo5.cpp */,
 			);
-			name = yap;
+			path = DS;
+			sourceTree = "<group>";
+		};
+		0E7C1C0821285BB500D4B403 /* Algorithm */ = {
+			isa = PBXGroup;
+			children = (
+				0E7C1C0921285BD800D4B403 /* Greedy_ActivitySelection.cpp */,
+				0E7C1C0B2128667200D4B403 /* Union_find_algorithm.cpp */,
+				0E7C1C0D2128727E00D4B403 /* Union_by_Rank_PathCompression.cpp */,
+				0E7C1C0F21288A7500D4B403 /* Greedy_Kruskal.cpp */,
+				0E8D26472130412700AC53E7 /* Greedy_HuffmanTree.cpp */,
+				0E8D26492130507600AC53E7 /* Greedy_Prims.cpp */,
+				0E8D264B213069E000AC53E7 /* Greedy_Dijkstra.cpp */,
+				0E6933282130732900748FB0 /* Greedy_Dijkstra2.cpp */,
+				0E69332A213087F600748FB0 /* Greedy_JobSequence.cpp */,
+				0E69332C2130A68700748FB0 /* Greedy_minCoin.cpp */,
+				0E69332E2130B34A00748FB0 /* Greedy_Findflatform.cpp */,
+				0E6933302130BF4800748FB0 /* DP_longestsubsequence.cpp */,
+				0E93634421318857009ED90B /* DP_LCS.cpp */,
+				0E93634621319083009ED90B /* DP_LCSprint.cpp */,
+				0E93634821319BAA009ED90B /* DP_AvailableWordPrint.cpp */,
+				0E93634A2131A3F6009ED90B /* DP_EditDistance.cpp */,
+				0E93634C2131B679009ED90B /* DP_MinCostPath.cpp */,
+				0E93634E2131CB5C009ED90B /* DP_CoinChange.cpp */,
+				0E01CC352139DD3600591A75 /* DP_bitmasking.cpp */,
+			);
+			path = Algorithm;
 			sourceTree = "<group>";
 		};
 		0EA33DD72125238E00111348 = {
 			isa = PBXGroup;
 			children = (
+				0E49F7E621357E0B0088D10B /* DS */,
+				0E7C1C0821285BB500D4B403 /* Algorithm */,
 				0EA33DE22125238E00111348 /* yap */,
 				0EA33DE12125238E00111348 /* Products */,
 			);
@@ -76,9 +150,17 @@
 			isa = PBXGroup;
 			children = (
 				0EA33DE32125238E00111348 /* main.cpp */,
-				0E7C1BD721271B0C00D4B403 /* reference.cpp */,
-				0E7C1BDF2127248600D4B403 /* yap */,
-				0E7C1BDE2127247100D4B403 /* yap */,
+				0E7C1BEC2127430900D4B403 /* upper_bound.cpp */,
+				0E7C1BF12127462A00D4B403 /* equal_range.cpp */,
+				0E7C1BF521274DB500D4B403 /* STL_sort.cpp */,
+				0E7C1BF721274EA600D4B403 /* STL_binary_search.cpp */,
+				0E7C1BF92127517800D4B403 /* STL_binary_search_compare.cpp */,
+				0E7C1BFC2127556300D4B403 /* STL_pair.cpp */,
+				0E7C1BFE2127674000D4B403 /* STL_vector.cpp */,
+				0E7C1C002127810A00D4B403 /* STL_list.cpp */,
+				0E7C1C02212787F200D4B403 /* STL_stack.cpp */,
+				0E7C1C04212838FC00D4B403 /* STL_vector1.cpp */,
+				0E7C1C0621284A3B00D4B403 /* STL_deque.cpp */,
 			);
 			path = yap;
 			sourceTree = "<group>";
@@ -139,10 +221,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E7C1BE32127248600D4B403 /* reference.cpp in Sources */,
-				0EA33DE42125238E00111348 /* main.cpp in Sources */,
-				0E7C1BE42127248600D4B403 /* main.cpp in Sources */,
-				0E7C1BD921271B0C00D4B403 /* reference.cpp in Sources */,
+				0E01CC362139DD3600591A75 /* DP_bitmasking.cpp in Sources */,
+				0E01CC342139CB1500591A75 /* Array_algo5.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
